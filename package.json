@@ -1,20 +1,26 @@
 {
   "name": "ftp-replace",
-  "version": "0.1.0",
   "description": "Replaces a target folder using FTP",
-  "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
+  "version": "0.1.1",
   "main": "./lib/main.js",
+  "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jakobmattsson/manikin-mongodb.git"
+  },
   "engines": {
-    "node": ">= 0.8"
+    "node": ">= 0.8 < 0.12",
+    "npm": ">= 1.3 < 2"
+  },
+  "dependencies": {
+    "async": "^0.2.9",
+    "ftp": "^0.1.7"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.6.3"
   },
   "scripts": {
     "prepublish": "coffee -co lib src"
-  },
-  "dependencies": {
-    "async": "0.1.12",
-    "ftp": "0.1.7"
-  },
-  "devDependencies": {
-    "coffee-script": "1.4.0"
   }
 }
