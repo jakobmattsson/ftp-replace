@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/jakobmattsson/manikin-mongodb.git"
+    "url": "http://github.com/jakobmattsson/ftp-replace.git"
   },
   "engines": {
     "node": ">= 0.8 < 0.12",
