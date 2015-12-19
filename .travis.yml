@@ -9,9 +9,9 @@ deploy:
   email: jakob.mattsson@gmail.com
   skip_cleanup: true
   api_key:
-    secure: XYWkWt2IAFT4qcZpb+UThY4LZiUzqXUC58vUq0CZ6/fVt0Bd6G7J4sMdDFmCEvxEiPDiWWvCBI2NvIdywIA3pnpA1UWpkbNbm4Vz4/8DU3Q5zc6MD6wA1lqGDEyYAKt999jizMSRd7UBGkHJvetph/JTgo+aSk6BXR9nAmUwnx4=
+    secure: QJ/BEh+p1OqveLRu0bJdC5naLlbzHc+U/zAW6zOUBzngzxDlO+B75AXAIRzOqZW3oDaW/dYI83ebOtSBAejyK4NZ3Tb1UDCAImlaXXS4cyKbklvX8bcf5sSYir9JHDn5MRy5aTU7178pDqf8ojkbYddHnDzG0yrmazyV2a9+fEY=
   on:
-    branch: master
+    tags: true
     repo: jakobmattsson/ftp-replace
 notifications:
   email:
