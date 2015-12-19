@@ -1,1 +1,3 @@
 lib
+*.sublime-workspace
+npm-debug.log
